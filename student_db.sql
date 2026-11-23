@@ -15,7 +15,3 @@ CREATE TABLE subjects (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 ) ENGINE=InnoDB;
-
-INSERT INTO students VALUES (1, 'Rahul', '2025-26');
-INSERT INTO students VALUES (2, 'Priya', '2025-26');
-INSERT INTO subjects (roll_no, subject_name) VALUES (1, 'Maths'), (1, 'Physics'), (2, 'Chemistry');
